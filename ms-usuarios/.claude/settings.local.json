@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p \"C:/Users/Pichau/OneDrive/Documentos/projeto final/ms-viagens/src/main/java/br/edu/ifsp/carona/viagens/entity\")",
+      "Bash(mkdir -p \"C:/Users/Pichau/OneDrive/Documentos/projeto final/ms-viagens/src/main/java/br/edu/ifsp/carona/viagens/dto\")",
+      "Bash(mkdir -p \"C:/Users/Pichau/OneDrive/Documentos/projeto final/ms-viagens/src/main/java/br/edu/ifsp/carona/viagens/repository\")",
+      "Bash(mkdir -p \"C:/Users/Pichau/OneDrive/Documentos/projeto final/ms-viagens/src/main/java/br/edu/ifsp/carona/viagens/config\")",
+      "Bash(mkdir -p \"C:/Users/Pichau/OneDrive/Documentos/projeto final/ms-viagens/src/main/java/br/edu/ifsp/carona/viagens/security\")"
+    ]
+  }
+}
