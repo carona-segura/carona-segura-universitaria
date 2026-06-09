@@ -1,0 +1,41 @@
+# Maven
+target/
+*.jar
+*.war
+*.ear
+*.class
+*.log
+
+# Spring Boot
+*.pid
+
+# IDE - IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# IDE - VS Code
+.vscode/
+
+# IDE - Eclipse
+.classpath
+.project
+.settings/
+bin/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+*.env
+.env
+application-local.yml
+application-local.properties
+
+# Maven wrapper (optional - remova se quiser versionar)
+# .mvn/
+# mvnw
+# mvnw.cmd
