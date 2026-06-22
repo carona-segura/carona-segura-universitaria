@@ -1,7 +1,7 @@
 class ApiConstants {
-  static const String usuariosBaseUrl = 'http://192.168.15.39:8081';
-  static const String viagensBaseUrl = 'http://192.168.15.39:8082';
-  static const String notificacoesBaseUrl = 'http://192.168.15.39:8083';
+  static const String usuariosBaseUrl = 'https://ms-usuarios-q7ky.onrender.com';
+  static const String viagensBaseUrl = 'https://ms-viagens.onrender.com';
+  static const String notificacoesBaseUrl = 'https://ms-notificacoes.onrender.com';
 
   // Usuarios
   static const String cadastro = '/api/usuarios/cadastro';
