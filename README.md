@@ -4,10 +4,9 @@
 
 O APK é gerado automaticamente a cada push via GitHub Actions.
 
-**Para baixar:**
-1. Acesse a aba [Actions](https://github.com/carona-segura/carona-segura-universitaria/actions)
-2. Clique no workflow **"Build Flutter APK - Carona Segura"** mais recente ✅
-3. Em **Artifacts**, baixe o arquivo `carona-segura-apk`
+[![Download APK](https://img.shields.io/badge/Download-APK%20Android-brightgreen?style=for-the-badge&logo=android)](https://github.com/carona-segura/carona-segura-universitaria/releases/download/v8/carona-segura.apk)
+
+> Antes de instalar, habilite **"Fontes desconhecidas"** em Configurações → Segurança no seu celular Android.
 
 [![Build Flutter APK](https://github.com/carona-segura/carona-segura-universitaria/actions/workflows/build-apk.yml/badge.svg)](https://github.com/carona-segura/carona-segura-universitaria/actions/workflows/build-apk.yml)
 
