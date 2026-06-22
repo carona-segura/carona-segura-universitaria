@@ -1,5 +1,18 @@
 # Carona Segura Universitária
 
+## Download do Aplicativo
+
+O APK é gerado automaticamente a cada push via GitHub Actions.
+
+**Para baixar:**
+1. Acesse a aba [Actions](https://github.com/carona-segura/carona-segura-universitaria/actions)
+2. Clique no workflow **"Build Flutter APK - Carona Segura"** mais recente ✅
+3. Em **Artifacts**, baixe o arquivo `carona-segura-apk`
+
+[![Build Flutter APK](https://github.com/carona-segura/carona-segura-universitaria/actions/workflows/build-apk.yml/badge.svg)](https://github.com/carona-segura/carona-segura-universitaria/actions/workflows/build-apk.yml)
+
+---
+
 ## Descrição
 
 App de caronas exclusivo para alunos universitários com validação de e-mail institucional. A plataforma conecta motoristas e passageiros dentro da mesma instituição de ensino, garantindo segurança e confiabilidade por meio da verificação do vínculo acadêmico.
