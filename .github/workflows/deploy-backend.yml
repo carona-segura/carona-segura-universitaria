@@ -21,6 +21,9 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
+      - name: Fix mvnw permission
+        run: chmod +x ms-usuarios/mvnw
+
       - name: Build MS-Usuarios
         working-directory: ./ms-usuarios
         run: ./mvnw clean package -DskipTests -B
@@ -50,6 +53,9 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
 
+      - name: Fix mvnw permission
+        run: chmod +x ms-viagens/mvnw
+
       - name: Build MS-Viagens
         working-directory: ./ms-viagens
         run: ./mvnw clean package -DskipTests -B
@@ -78,6 +84,9 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
+
+      - name: Fix mvnw permission
+        run: chmod +x ms-notificacoes/mvnw
 
       - name: Build MS-Notificacoes
         working-directory: ./ms-notificacoes
