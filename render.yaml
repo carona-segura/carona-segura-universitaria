@@ -1,0 +1,56 @@
+services:
+  - type: web
+    name: ms-usuarios
+    env: docker
+    dockerfilePath: ./ms-usuarios/Dockerfile
+    dockerContext: ./ms-usuarios
+    plan: free
+    envVars:
+      - key: NEON_DB_URL
+        sync: false
+      - key: NEON_DB_USERNAME
+        sync: false
+      - key: NEON_DB_PASSWORD
+        sync: false
+      - key: RABBITMQ_URL
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: SPRING_PROFILES_ACTIVE
+        value: prod
+
+  - type: web
+    name: ms-viagens
+    env: docker
+    dockerfilePath: ./ms-viagens/Dockerfile
+    dockerContext: ./ms-viagens
+    plan: free
+    envVars:
+      - key: NEON_DB_URL
+        sync: false
+      - key: NEON_DB_USERNAME
+        sync: false
+      - key: NEON_DB_PASSWORD
+        sync: false
+      - key: RABBITMQ_URL
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: MS_USUARIOS_URL
+        sync: false
+
+  - type: web
+    name: ms-notificacoes
+    env: docker
+    dockerfilePath: ./ms-notificacoes/Dockerfile
+    dockerContext: ./ms-notificacoes
+    plan: free
+    envVars:
+      - key: NEON_DB_URL
+        sync: false
+      - key: NEON_DB_USERNAME
+        sync: false
+      - key: NEON_DB_PASSWORD
+        sync: false
+      - key: RABBITMQ_URL
+        sync: false
